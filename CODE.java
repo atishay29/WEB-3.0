@@ -1,4 +1,5 @@
-public class record{String name;
+public static class record{
+		String name;
 	float reqiured;
 	float interest;      //CREATING A JAVA CLASS
 	float duration;
@@ -16,6 +17,9 @@ public class record{String name;
 	}
 	}
 	
+	
+		
+	
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
@@ -28,8 +32,8 @@ public class record{String name;
 		System.out.println("Kindly enter the number of months in which you would llike to pay the emi.");
 		float dura=sc.nextFloat();                            //TAKING DURATION OF LOAN
 		float inte=6.3f;                                       //DECLARING INTEREST RATE
-		loans approved=new loans();                          // CREATING INSTANCE OF MAIN CLASS
-		approved.new record(s,req,inte,dura);              //  USING JAVA CONSTRUCTOR FOR CLASS record.
+		record approved=new record(s,req,inte,dura);                          // CREATING INSTANCE OF MAIN CLASS
+		              //  USING JAVA CONSTRUCTOR FOR CLASS record.
 		sc.close();
 
 	}
