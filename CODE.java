@@ -1,4 +1,7 @@
-public static class record{
+package loan;
+import java.util.*;
+public class loans {
+	public static class record{
 		String name;
 	float reqiured;
 	float interest;      //CREATING A JAVA CLASS
@@ -37,3 +40,5 @@ public static class record{
 		sc.close();
 
 	}
+
+}
