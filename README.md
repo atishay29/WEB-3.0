@@ -8,9 +8,13 @@ To run the code on your PC, follow these steps :
 2. Import the following libraries : or copy them from my code.
 
 3. import java.util.*;
+   
    import java.math.BigInteger;
+   
    import java.nio.charset.StandardCharsets;
+   
    import java.security.MessageDigest;
+   
    import java.security.NoSuchAlgorithmException;
 
 4. copy the code inside "public class check"   public class check{ code to be copied}.
