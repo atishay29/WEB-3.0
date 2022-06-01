@@ -5,6 +5,8 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 public class check {
+	
+	
 	public static byte[] getSHA(String input) throws NoSuchAlgorithmException
     {
         // Static getInstance method is called with hashing SHA
@@ -59,11 +61,11 @@ public class check {
         catch (NoSuchAlgorithmException e) {
             System.out.println("Exception thrown for incorrect algorithm: " + e);
         }
-				
+	}			
 				
 				
 			  
 	
-	}
+	
 
 }
