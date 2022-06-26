@@ -47,7 +47,7 @@ contract Loan is MetaCoin {
     }
     
     constructor() public {
-        Owner=msg.sender;
+        Owner=tx.origin;
         // Make the creator of the contract the Owner.
         // You can take the help of 2_owner.sol contract in remix for this and the above function. 
     }
